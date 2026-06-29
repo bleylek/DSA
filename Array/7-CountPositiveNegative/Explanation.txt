@@ -1,0 +1,7 @@
+I use the linear scan pattern for this question in other words I'm traversing all the elements in the given array and collect info.
+First, I declare two variable for holding the number of positive and negative elements in the given array.
+Second, I traverse all the elements by for loop
+Third, I compare whether each element is greater than 0 or not.
+
+Time complexity O(n) because I visit all the elements in the given array once
+Space complexity is O(1) because I do not use any additional space except two variables.

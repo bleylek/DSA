@@ -1,0 +1,9 @@
+I used the linear scan pattern for this question. So, I visited all the elements in the array.
+
+First, I declared a variable for holding the sum of the elements in the given array.
+Second, I traversed all the elements in the array by for loop and add all values to the variable cumulatively.
+Third, I divided the total sum into the number of elements in the array.
+
+Time complexity is O(n) where n is the number of elements because I only used one for loop and visited all elements once
+Space complexity is O(1) beacuse there is basically no additional space apart from a variable.
+

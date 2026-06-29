@@ -1,0 +1,8 @@
+I used the linear scan pattern for this problem it means I traversed the array once.
+First, I declared two variables. One for holding the max element and the other for holding the min element in the given array and attach them to the first element of the array temporarily.
+Second, I visit all the elements in the array by for loop.
+If there is an element that is greater than the value of the variable that holds the max element, then the new max becomes that element.
+Also, if there is an element that is smaller than the value of the variable that holds the min element, then the new min becomes that element.
+
+Time complexity is O(n) beacuse I visit all elements in the array once in other words we only use one loop
+Space complexity is O(1) because I did not use any additional data structures / space except two primitive variables. 

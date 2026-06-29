@@ -1,0 +1,6 @@
+I used linear scan pattern for this problem. This pattern requires checking each element in the array one by one.
+First, I set the first element of the array as the current minimum element
+Then, I iterate through remaining elements in the array and compare each element with the current minimum element. If there is an element that is smaller than the current minimum, then the new current minimum becomes that element.
+
+Time Complexity is O(n) where n is the size of the array because I scan every element once
+Space Complexity is O(1) because I did not use any additional space

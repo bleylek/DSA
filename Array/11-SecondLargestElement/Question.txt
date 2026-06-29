@@ -1,0 +1,16 @@
+Second Largest Element
+
+Given an integer array, return the second largest distinct element in the array.
+
+If there is no second largest distinct element, return -1.
+
+Input:
+[4, 7, 2, 15, 9]
+
+Output:
+9
+
+Explanation:
+
+The largest element is 15.
+The second largest distinct element is 9.

@@ -1,0 +1,7 @@
+Minimum Element
+
+Find the minimum element in array
+
+Input: [4, 1, 9, 2, 7]
+
+Output: 1

@@ -1,0 +1,16 @@
+I used the linear scan pattern for this question in other words I visited all the elements in the given array
+
+First, I declared two variables for the first and second minimum values and made them equal to INT_MAX (Maximum integer limit in C++)
+Second, I traversed the array by using a for loop.
+
+There are 3 conditions: 
+1- arr[i] > firstMin, secondMin in this case we do not need to do anything
+2- arr[i] < firstMinimum (and naturally arr[i] < secondMinimum)
+3- secondMinimum > arr[i] > firstMinimum
+
+The first if statement in the loop is that whether the current number in the current iteration is smaller than the firstMinimum, if it is, then the previous firstMinimum becomes the new secondMinimum, and the current element becomes the new firstMinimum.
+After that in the second condition (if the first condition is not met) I looked for whether the current number in the current iteration is smaller than the secondMinimum AND the current number is greater than the firstMinimum. If so, secondMinimum becomes the current number in the current iteration.
+At the end, I used another conditional statement for checking whether the distinct secondMinimum exists, if it does not then return -1
+
+Time Complexity is O(n) where n is the size of the array. I am traversing the array only once.
+Space Complexity is O(1) because I only used two variables to store the first and second minimum values. No additional data structures are used.

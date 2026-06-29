@@ -1,0 +1,7 @@
+Maximum Element
+
+Find the maximum element in array
+
+Input: [4, 1, 9, 2, 7]
+
+Output: 9

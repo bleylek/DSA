@@ -1,0 +1,7 @@
+I will use the linear scan pattern for this question.
+
+The idea is that I will traverse the array using for loop. I will compare the current element with the subsequent element and if there is any violation, then I will immediately return false.
+After traversing all the elements, if there is no violation then I will return true.
+
+Time complexity will be O(n) where n is the number of elements in the given array because I'll be visiting all the elements once
+Space complexity will be O(1)

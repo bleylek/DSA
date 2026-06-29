@@ -1,0 +1,15 @@
+Find Index of Minimum Element
+
+Given an integer array, return the index of the minimum element.
+
+If there are multiple minimum elements, return the index of the first occurrence.
+
+Input:
+[4, 7, -2, 15, 0, 9]
+
+Output:
+2
+
+Explanation:
+
+The minimum element is -2, which is located at index 2.

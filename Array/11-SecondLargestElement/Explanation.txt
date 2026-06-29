@@ -1,0 +1,16 @@
+I used the linear scan pattern for this question in other words I visited all the elements in the given array
+
+First, I declared two variables for the first and second maximum values and made them equal to INT_MIN (Minimum integer limit in C++)
+Second, I traversed the array by using a for loop.
+
+There are 3 conditions: 
+1- arr[i] < firstMax, secondMax in this case we do not need to do anything
+2- arr[i] > firstMaximum (and naturally arr[i] > secondMaximum)
+3- secondMaximum < arr[i] < firstMaximum
+
+The first if statement in the loop is that whether the current number in the current iteration is greater than the firstMaximum, if it is, then the previous firstMaximum becomes the new secondMaximum, and the current element becomes the new firstMaximum.
+After that in the second condition (if the first condition is not met) I looked for whether the current number in the current iteration is greater than the secondMaximum AND the current number is smaller that the firstMaximum. If so, secondMaximum becomes the current number in the current iteration.
+At the end, I used another conditional statement for checking whether the distinct secondMaximum exists, if it does not then return -1
+
+Time Complexity is O(n) where n is the size of the array. I am traversing the array only once.
+Space Complexity is O(1) because I only used two variables to store the first and second maximum values. No additional data structures are used.

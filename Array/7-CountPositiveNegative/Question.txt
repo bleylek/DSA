@@ -1,0 +1,10 @@
+Count Positive / Negative
+
+Find how many positive and negative numbers are there in the given array.
+
+Input: [4, -2, 0, 7, -5, 3, -1]
+
+Output:
+
+Positive: 3
+Negative: 3

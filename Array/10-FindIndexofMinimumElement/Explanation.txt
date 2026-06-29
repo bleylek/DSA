@@ -1,0 +1,9 @@
+I used the linear scan pattern for this question. In other words I visited all the elements via loop and gathered information.
+
+First, I declared two variables for holding the current minimum element in the given array and for the index of the minimum element.
+Second, I traversed all the elements in the given array via loop
+If there is a smaller element than the current minimum element, the the new current minimum becomes that element and minIndex becomes the current i in the loop
+At the end, I returned the index of the minimum element
+
+Time complexity is O(n) because there is only one loop and I visited all the elements once
+Space complexity is O(1). No extra space used apart from two variables.

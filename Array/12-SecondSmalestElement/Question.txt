@@ -1,0 +1,16 @@
+Second Smallest Element
+
+Given an integer array, return the second smallest distinct element in the array.
+
+If there is no second smallest distinct element, return -1.
+
+Input:
+[4, 7, 2, 15, 9]
+
+Output:
+4
+
+Explanation:
+
+The smallest element is 2.
+The second smallest distinct element is 4.

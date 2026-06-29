@@ -1,0 +1,7 @@
+I used the linear scan pattern for this question. This method means traversing all the elements in an array.
+First I declared a variable for holding the number of odd numbers.
+Second, traversed all elements in the array via for loop.
+Third, for each element I performed the division operation by two and if there is reminder then I increased the value of the variable I declared.
+
+Time complexity is O(n) where n is the number of elements in the array because I visited all element in the array once
+Space complexity is O(1) because only a variable is declared and used. So basically no additional space used.

@@ -1,0 +1,9 @@
+I used linear scan pattern for this problem. This pattern requires checking each element in the array one by one.
+First, I set the first element of the array as the current maximum element
+Then, I iterate through remaining elements in the array and compare each element with the current maximum element. If there is an element that is greater than the current maximum, then the new current maximum becomes that element.
+
+Note: & -> do not copy, take the original vector as reference directly. const -> do not change this vector, just read
+
+
+Time Complexity is O(n) where n is the size of the array because I visit every element once
+Space Complexity is O(1) because I did not use any additional space and only use one extra variable

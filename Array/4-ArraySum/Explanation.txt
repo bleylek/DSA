@@ -1,0 +1,7 @@
+I used linear scan pattern for this question. In other words I iterate through all elements in the array.
+First, I initialized a variable and made it 0.
+Then, I scan every element in the array and add each of them to the variable cumulatively.
+In the end, I return the variable namely the total sum
+
+Time Complexity: O(n) because I visit each element once
+Space Complexity: O(1) because I did not use additional space I just used a variable

@@ -1,0 +1,13 @@
+Average of Array
+
+Given an integer array, return the average of all its elements.
+
+
+Input:
+[2, 4, 6, 8]
+
+Output:
+5
+
+Explanation:
+(2 + 4 + 6 + 8) / 4 = 5

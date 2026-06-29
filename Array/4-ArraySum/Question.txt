@@ -1,0 +1,7 @@
+Array Sum
+
+Find the sum of all elements in the array.
+
+Input: [1, 2, 3, 4]
+
+Output: 10

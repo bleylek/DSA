@@ -1,0 +1,15 @@
+Find Index of Maximum Element
+
+Given an integer array, return the index of the maximum element.
+
+If there are multiple maximum elements, return the index of the first occurrence.
+
+Input:
+[4, 7, -2, 15, 0, 9]
+
+Output:
+3
+
+Explanation:
+
+The maximum element is 15, which is located at index 3.
