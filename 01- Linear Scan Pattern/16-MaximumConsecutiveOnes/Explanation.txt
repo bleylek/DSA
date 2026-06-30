@@ -1,0 +1,11 @@
+I will use linear scan pattern for this problem. In other words I will traverse the array using a loop and visit each element in the  given array at most once.
+
+First, I will declare two variables (currentCount and maxCount) currentCount is for counting the number of consecutive ones and maxCount is for the maximum number of the sets of the consecutive ones.
+Second, I will traverse the array using a for loop.
+There will be a conditional statement in this loop. This statement will first control if the current element is equal to 1.
+If so, I will increment currentCount by 1 and there will be another if statement here for comparing maxCount with currentCount.
+If maxCount is smaller than the current than the new maxCount will become currentCount
+At the end, I will return maxCount.
+
+Time complexity is O(n) where n is the number of elements in the given array because I visit all the elements at most once.
+Space complexity is O(1) because I do not use any additional space/data structures except two integer variables.

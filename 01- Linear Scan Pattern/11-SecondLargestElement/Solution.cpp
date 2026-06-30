@@ -35,5 +35,5 @@ int main(){
     return 0;
 }
 
-// Time Complexity: O(n) where n is the size of the array. We are traversing the array only once.
+// Time Complexity: O(n)
 // Space Complexity: O(1)

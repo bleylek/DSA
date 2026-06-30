@@ -30,4 +30,4 @@ int main(){
 }
 
 // Time Complexity: O(n) where n is the size of the array
-// Space Complexity: O(1) as we are not using any extra space
+// Space Complexity: O(1)

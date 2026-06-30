@@ -1,0 +1,9 @@
+I will use linear scan pattern for this problem in other words I will traverse the array once and in each iteration, gather information and modify something/a value.
+
+First, I will control the size of the array, if its length is equal to 1 then I will return 0.
+Second, I'll declare two variables for holding the max and min elements in the given array and make them equal to the INT_MIN and INT_MAX.
+Third, I will traverse the array using a for loop and each iteration I will compare the current number with the max and min variables and modify the values of these variables if necessary.
+At the end, I will return the valaue of max - min.
+
+Time complexity is O(n) becuse I'm only using one for loop.
+Space complexity is O(1) because no additional space that affect the complexity is used. Only two additional integer variables are used.

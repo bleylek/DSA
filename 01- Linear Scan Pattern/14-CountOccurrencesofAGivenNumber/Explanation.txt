@@ -1,0 +1,8 @@
+I will use the linear scan pattern for this problem. In other words, I will traverse the array once.
+
+First, I'll declare a variable (result) for counting the number of occurrences of the target value.
+Second, I'll traverse the array using for loop and if the current number in the current iteration is equal to the target value, then I'll increase the variable (result) by one.
+At the end, I will return the variable result.
+
+Time complexity is O(n) because I'm using only one for loop in other words I'm visiting all the elements once.
+Space complexity is O(1) because no additional data structures except an integer variable used.

@@ -1,0 +1,48 @@
+Largest Difference (Max - Min)
+
+Given an integer array, return the largest difference between any two elements in the array.
+
+The largest difference is defined as:
+
+maximum element - minimum element
+
+
+Example 1
+Input:
+[4, 7, -2, 15, 0, 9]
+
+Output:
+17
+
+Explanation:
+
+Maximum = 15
+Minimum = -2
+
+15 - (-2) = 17
+
+
+Example 2
+Input:
+[5]
+
+Output:
+0
+
+Explanation:
+
+The array contains only one element.
+Therefore, the largest difference is 0.
+
+
+Constraints
+
+Traverse the array only once.
+Do not use sort().
+Do not use nested loops.
+
+
+Expected Complexity
+
+Time Complexity: O(n)
+Space Complexity: O(1)
