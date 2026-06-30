@@ -2,7 +2,7 @@ Linear Scan Pattern
 
 -- Definition
 
-The Linear Scan pattern solves a problem by traversing an array exactly once while updating one or more variables on the fly. 
+The Linear Scan pattern solves a problem by traversing an array exactly once while collecting information or updating one or more variables. 
 In other words, in this pattern we keep track of state with one pointer.
 It is commonly used to find maximum/minimum values, compute sums, count occurrences, etc.. in O(n) time and O(1) extra space.
 
@@ -15,3 +15,11 @@ A problem is likely a Linear Scan problem if:
 - No additional data structures (HashMap, Stack, Queue, etc..) are required.
 - No sorting or binary search is needed.
 - The optimal solution runs in O(n) time and O(1) extra space
+
+
+Examples:
+- Finding the minimum or maximum element in an array
+- Finding the maximum consecutive ones
+- Finding the sum or average of the elements in the given array
+
+Note: Generally For Loop

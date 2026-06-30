@@ -1,0 +1,16 @@
+Two Pointers Pattern
+
+
+-- Definition:
+
+Use this pattern when the solution requires two independent pointers that move through the array simultaneously. 
+The pointers may move toward each other, in the same direction or at different speeds to compare, swap or process elements efficiently.
+
+-- How to Recognize
+- Two indices are required
+- Elements from different positions need to be compared
+- Reverse an array or string
+- Check whether a string is a palindrome
+- Find a pair of elements satisfying a condition
+- Process a sorted array efficiently
+- One pointer alone is not sufficient
