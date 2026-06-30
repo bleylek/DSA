@@ -1,0 +1,8 @@
+I'm using two pointers pattern for this problem. In other words, I'm using two iteration object in a while loop.
+
+First, I initialized two pointers: 'left' pointing to the beginning of the array and 'right' pointing to the end of the array.
+Then, in a while loop I'm traversing the array with the left and right pointers as far as left pointer is smaller than the right pointer because I'm incrementing the value of the left pointer and decreasing the value of the right pointer.
+At the end, I'm printing the elements of the given array with new order.
+
+Time complexity is O(n) where n is the number of elements in the given array because each element is visited at most once
+Space complexity is O(1) because no additional data structures are used apart from integer variables

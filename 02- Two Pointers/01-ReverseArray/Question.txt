@@ -1,0 +1,23 @@
+Reverse Array
+
+Given an integer array, reverse the array in-place.
+
+Example
+Input:
+[1, 2, 3, 4, 5]
+
+Output:
+[5, 4, 3, 2, 1]
+
+
+Constraints
+
+Do not create another array.
+Do not use built-in reverse().
+Modify the original array.
+
+
+Expected Complexity
+
+Time Complexity: O(n)
+Space Complexity: O(1)
