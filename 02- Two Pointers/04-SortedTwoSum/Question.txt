@@ -1,0 +1,46 @@
+Sorted Two Sum
+
+Given a sorted integer array (in non-decreasing order) and a target value, determine whether there exist two numbers whose sum equals the target.
+
+Return true if such a pair exists; otherwise, return false.
+
+Example 1
+Input:
+array = [1, 2, 4, 7, 11, 15]
+target = 15
+
+Output:
+true
+
+Explanation:
+
+4 + 11 = 15
+
+Example 2
+Input:
+array = [1, 2, 4, 7, 11, 15]
+target = 20
+
+Output:
+false
+
+Example 3
+Input:
+array = [2, 3]
+target = 5
+
+Output:
+true
+
+
+Constraints
+
+The input array is sorted in non-decreasing order.
+Do not use a HashMap or HashSet.
+Solve the problem using the Two Pointers technique.
+
+
+Expected Complexity
+
+Time Complexity: O(n)
+Space Complexity: O(1)

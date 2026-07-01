@@ -1,0 +1,48 @@
+Valid Palindrome
+
+Given a string, determine whether it is a palindrome.
+
+A palindrome reads the same forward and backward.
+
+Return true if the string is a palindrome; otherwise, return false.
+
+Example 1
+Input:
+"racecar"
+
+Output:
+true
+
+Example 2
+Input:
+"level"
+
+Output:
+true
+
+Example 3
+Input:
+"hello"
+
+Output:
+false
+
+Example 4
+Input:
+"a"
+
+Output:
+true
+
+
+Constraints
+
+Compare the characters in-place.
+Do not create another string.
+Do not use built-in functions such as reverse().
+
+
+Expected Complexity
+
+Time Complexity: O(n)
+Space Complexity: O(1)

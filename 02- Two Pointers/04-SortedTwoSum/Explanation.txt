@@ -1,0 +1,15 @@
+I used the two pointers pattern for this problem.
+
+First I declared two variables: left and right. 
+left points to the beginning of the array and right points to the end of the array.
+Then, I initialized the while loop.
+In this loop there can be 3 conditions;
+- If the sum of the elements pointed by the two pointers is equal to the target then return true
+- If the sum is smaller than target, I increased left pointer's index by one
+- If the sum is greater than target, I decreased right pointer's index by one
+
+The algorithm continues until the two pointers meet.
+
+
+Time complexity is O(n) because I visited all the elements in the given array at most once
+Space complexity is O(1) because the algorithm used constant amount of extra space (just integer variables) regardless of how large the input size be.

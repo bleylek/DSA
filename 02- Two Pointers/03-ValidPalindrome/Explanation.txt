@@ -1,0 +1,8 @@
+I used the two pointers pattern for this problem.
+
+There are two pointers; left and right. left points to the beginning of the string and right points to the end of the string.
+In a while loop, I check whether the values that these pointers point to are same or not if not, then I return false if they are same, then I increase left by one and decrease right by one.
+Until the two pointers meet, the algorithm continues.
+
+Time complexity is O(n) where n is the size of the given string because I visit all characters in the given string at most once.
+Space complexity is O(1) because the algorithm uses a constant amount of extra space (just a few integer/char variables) regardless of the input size. In other words, no matter how large the input size be, the algorithm uses a constant amount of extra space (a few integer/char variables)
