@@ -1,0 +1,8 @@
+I used two pointers pattern for this problem.
+
+The idea is declaring two pointers. One of them is in the beginning of the string and the other one is in the end of the string.
+While the left pointer is smaller than the right pointer, I swap the elements in these positions and move the pointers towards each other
+The algorithm continues until these two pointer meet, meaning the string has been completely reversed.
+
+Time complexity is O(n) because I'm traversing the string once in other words I visit all the characters in the given string at most once.
+Space complexity: is O(1) because the algorithm uses a constant amount of extra space (a few integer/char variables) regardless of the input size.

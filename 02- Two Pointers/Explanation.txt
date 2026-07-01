@@ -14,3 +14,5 @@ The pointers may move toward each other, in the same direction or at different s
 - Find a pair of elements satisfying a condition
 - Process a sorted array efficiently
 - One pointer alone is not sufficient
+
+Note: Generally While Loop
